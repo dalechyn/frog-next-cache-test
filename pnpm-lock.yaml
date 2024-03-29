@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  hono-og@0.0.26:
+    hash: sg7ipfimtn3hlitwm6c7nh5p4u
+    path: patches/hono-og@0.0.26.patch
+
 dependencies:
   frog:
     specifier: latest
@@ -1605,7 +1610,7 @@ packages:
       fast-glob: 3.3.2
       fs-extra: 11.2.0
       hono: 4.1.5
-      hono-og: 0.0.26(hono@4.1.5)
+      hono-og: 0.0.26(patch_hash=sg7ipfimtn3hlitwm6c7nh5p4u)(hono@4.1.5)
       jose: 5.2.3
       lz-string: 1.5.0
       path-browserify: 1.0.1
@@ -1743,7 +1748,7 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /hono-og@0.0.26(hono@4.1.5):
+  /hono-og@0.0.26(patch_hash=sg7ipfimtn3hlitwm6c7nh5p4u)(hono@4.1.5):
     resolution: {integrity: sha512-YUaLj+T06fWpykgPoeMbxnRMuEA+L83p5+PcBzlM2P/Rj889wnapvVDtT//81iJhRVLCkdjEkAHfcZaJ67cI8w==}
     peerDependencies:
       hono: '>=3'
@@ -1752,6 +1757,7 @@ packages:
       hono: 4.1.5
       workers-og: 0.0.23
     dev: false
+    patched: true
 
   /hono@4.1.5:
     resolution: {integrity: sha512-3ChJiIoeCxvkt6vnkxJagplrt1YZg3NyNob7ssVeK2PUqEINp4q1F94HzFnvY9QE8asVmbW5kkTDlyWylfg2vg==}
