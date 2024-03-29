@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 patchedDependencies:
+  '@vercel/og@0.6.2':
+    hash: jkhbm5y67hc4ssvtluieu727fm
+    path: patches/@vercel__og@0.6.2.patch
   hono-og@0.0.26:
     hash: sg7ipfimtn3hlitwm6c7nh5p4u
     path: patches/hono-og@0.0.26.patch
@@ -844,7 +847,7 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/og@0.6.2:
+  /@vercel/og@0.6.2(patch_hash=jkhbm5y67hc4ssvtluieu727fm):
     resolution: {integrity: sha512-OTe0KE37F5Y2eTys6eMnfopC+P4qr2ooXUTFyFPTplYSPwowmFk/HLD1FXtbKLjqsIH0SgekcJWad+C5uX4nkg==}
     engines: {node: '>=16'}
     dependencies:
@@ -852,6 +855,7 @@ packages:
       satori: 0.10.9
       yoga-wasm-web: 0.3.3
     dev: false
+    patched: true
 
   /@vercel/python@4.1.0:
     resolution: {integrity: sha512-EIQXK5zL6fce0Barh74gc7xyLtRyvgmLZDIVQ8yJLtFxPlPCRY3GXkdJ7Jdcw8Pd0uuVF0vIHatv18xSLbcwtg==}
@@ -1753,7 +1757,7 @@ packages:
     peerDependencies:
       hono: '>=3'
     dependencies:
-      '@vercel/og': 0.6.2
+      '@vercel/og': 0.6.2(patch_hash=jkhbm5y67hc4ssvtluieu727fm)
       hono: 4.1.5
       workers-og: 0.0.23
     dev: false
