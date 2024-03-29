@@ -6,9 +6,6 @@ import { devtools } from 'frog/dev'
 import { handle } from 'frog/next'
 import { serveStatic } from 'frog/serve-static'
 
-
-export const revalidate = 0
-
 const app = new Frog({
   assetsPath: '/',
   basePath: '/api',
