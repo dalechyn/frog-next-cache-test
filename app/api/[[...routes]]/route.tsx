@@ -9,7 +9,7 @@ import { serveStatic } from 'frog/serve-static'
 const app = new Frog({
   assetsPath: '/',
   basePath: '/api',
-  imageOptions: {headers: { 'Cache-Control': 'max-age=0, s-maxage=0',
+  imageOptions: {format: 'svg',headers: { 'Cache-Control': 'max-age=0, s-maxage=0',
       'CDN-Cache-Control': 'max-age=0',
       'Vercel-CDN-Cache-Control': 'max-age=0',}}
   // Supply a Hub to enable frame verification.
