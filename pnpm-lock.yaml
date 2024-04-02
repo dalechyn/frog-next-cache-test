@@ -8,9 +8,6 @@ patchedDependencies:
   '@vercel/og@0.6.2':
     hash: y7vtqtzrnjwems5rcihwwzjm5y
     path: patches/@vercel__og@0.6.2.patch
-  hono-og@0.0.26:
-    hash: j72kuhixjgcmb73eoxgb6ndorq
-    path: patches/hono-og@0.0.26.patch
 
 dependencies:
   frog:
@@ -1709,7 +1706,7 @@ packages:
       fast-glob: 3.3.2
       fs-extra: 11.2.0
       hono: 4.2.0
-      hono-og: 0.0.26(patch_hash=j72kuhixjgcmb73eoxgb6ndorq)(hono@4.2.0)
+      hono-og: 0.0.26(hono@4.2.0)
       jose: 5.2.3
       lz-string: 1.5.0
       path-browserify: 1.0.1
@@ -1852,7 +1849,7 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /hono-og@0.0.26(patch_hash=j72kuhixjgcmb73eoxgb6ndorq)(hono@4.2.0):
+  /hono-og@0.0.26(hono@4.2.0):
     resolution: {integrity: sha512-YUaLj+T06fWpykgPoeMbxnRMuEA+L83p5+PcBzlM2P/Rj889wnapvVDtT//81iJhRVLCkdjEkAHfcZaJ67cI8w==}
     peerDependencies:
       hono: '>=3'
@@ -1861,7 +1858,6 @@ packages:
       hono: 4.2.0
       workers-og: 0.0.23
     dev: false
-    patched: true
 
   /hono@4.2.0:
     resolution: {integrity: sha512-4A9WSwQW1V1Bby07Ida1FZwvYceSkByd8uoxvcmYSPaEWIZqutn/s5jE3CJOci8Jt//vb9VDn+5B3xobIzvA6A==}
