@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   '@vercel/og@0.6.2':
-    hash: 6ugg3uufurj3vkl5mindk3y7x4
+    hash: y7vtqtzrnjwems5rcihwwzjm5y
     path: patches/@vercel__og@0.6.2.patch
 
 dependencies:
@@ -922,7 +922,7 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/og@0.6.2(patch_hash=6ugg3uufurj3vkl5mindk3y7x4):
+  /@vercel/og@0.6.2(patch_hash=y7vtqtzrnjwems5rcihwwzjm5y):
     resolution: {integrity: sha512-OTe0KE37F5Y2eTys6eMnfopC+P4qr2ooXUTFyFPTplYSPwowmFk/HLD1FXtbKLjqsIH0SgekcJWad+C5uX4nkg==}
     engines: {node: '>=16'}
     dependencies:
@@ -1854,7 +1854,7 @@ packages:
     peerDependencies:
       hono: '>=3'
     dependencies:
-      '@vercel/og': 0.6.2(patch_hash=6ugg3uufurj3vkl5mindk3y7x4)
+      '@vercel/og': 0.6.2(patch_hash=y7vtqtzrnjwems5rcihwwzjm5y)
       hono: 4.2.0
       workers-og: 0.0.23
     dev: false
