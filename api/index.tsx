@@ -14,7 +14,7 @@ export const app = new Frog({
   basePath: '/api',
   imageOptions: {
     headers: {
-      'Cache-Control': 'max-age=0'
+      'cache-control': 'max-age=0'
     }
   }
   // Supply a Hub to enable frame verification.
